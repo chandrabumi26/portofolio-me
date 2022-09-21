@@ -36,7 +36,7 @@ export default {
     created(){
         for(let i = 1; i<=50; i++){
             this.art.push({
-                name : 'Edition'+i,
+                name : 'Edition '+i,
                 src : '/assets/NFT/'+i+'.png'
             })
         }
