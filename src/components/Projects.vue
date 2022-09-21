@@ -17,6 +17,74 @@
                                     MLDSPOT Loyalty merupakan website point reward dari pembelian rokok MLD. Website tersebut telah memiliki user yang lebih dari 5000. Dalam kasus ini, website tersebut mengalami load data yang banyak dikarnakan pengambilan data user beserta riwayat pointnya sehingga user membutuhkan waktu hingga kurang lebih 30 sampai dengan 60 detik untuk mengakses homepage dari MLDSpot loyalty.
                                 </v-card-text>
                             </v-card>
+
+                            <v-card class="purple-card" style="margin-bottom: 10px;">
+                                <v-card-title>What i use</v-card-title>
+                                    <v-row>
+                                        <v-col cols="12" lg="4">
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> Vue.js</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> jQuery</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> Vanilla.js</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                        </v-col>
+                                        <v-col cols="12" lg="4">
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> HTML</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> CSSS</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> SCSS/SASS</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                        </v-col>
+                                        <v-col cols="12" lg="4">
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> Laravel</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> Laravel - Dusk</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> Webpack ( Compiler )</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                        </v-col>
+                                    </v-row>
+                                
+                            </v-card>
+
                             <v-card v-for="(item, index) in mld" :key="index" class="purple-card" style="margin-bottom: 10px;">
                                 <v-card-title>{{ item.title }}</v-card-title>
                                 
@@ -59,6 +127,80 @@
                                     INLA Indonesia merupakan komunitas pencinta alam yang dimiliki oleh CEO Ajita Digital Agency ( Geri Fertino ) pada kasus ini, INLA ingin memperbarui tampilan website dari yang sebelumnya menggunakan wordpress
                                 </v-card-text>
                             </v-card>
+                            <v-card class="green-card" style="margin-bottom: 10px;">
+                                <v-card-title>What i use</v-card-title>
+                                    <v-row>
+                                        <v-col cols="12" lg="3">
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> Vue.js</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> jQuery</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> Vanilla.js</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                        </v-col>
+                                        <v-col cols="12" lg="3">
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> HTML</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> CSSS</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> SCSS/SASS</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                        </v-col>
+                                        <v-col cols="12" lg="3">
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> Laravel</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> Laravel - Dusk</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> Vite ( Compiler )</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                        </v-col>
+                                        <v-col cols="12" lg="3">
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> Inertia</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                        </v-col>
+                                    </v-row>
+                                
+                            </v-card>
                             <v-card v-for="(item, index) in inla" :key="index" class="green-card" style="margin-bottom: 10px;">
                                 <v-card-title>{{ item.title }}</v-card-title>
                                 
@@ -85,7 +227,7 @@
             <v-expansion-panel style="background-color : #e7128b">
                 <v-expansion-panel-header>
                     <div>
-                        <img src="/assets/retinad/retinad-logo.svg" alt="" style="width:300px">
+                        <img src="/assets/retinad/retinad-logo.svg" alt="" style="width:400px">
                     </div>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
@@ -220,11 +362,32 @@
                         photo_2 : '/assets/retinad/RETINAD6.png'
                     },
                     {
-                        title : '6. GAMAL KONTOL',
-                        desc : 'DITO GABISA GAMBAR, GAMBARNYA HELM. LULUSAN DKV, GAMBARNYA GITU',
-                        sub_desc : 'User juga dapat memilih device router yang digunakan. device router yang ditentukan pada flow akan diaplikasikan terhadap venue untuk User',
-                        photo_1 : '/assets/retinad/RETINAD5.png',
-                        photo_2 : '/assets/retinad/RETINAD6.png'
+                        title : '6. Themes Builder',
+                        desc : 'Membuat tampilan untuk pengelolaan tema sebagai tampilan login wifi. Tampilan tersebut dimerge dengan hasil penentuan flow dan digunakan saat wifi berhasil login',
+                        sub_desc : 'User dapat mengelola masing - masing themes yang telah dibuat.',
+                        photo_1 : '/assets/retinad/RETINAD7.png',
+                        photo_2 : '/assets/retinad/RETINAD8.png'
+                    },
+                    {
+                        title : '7. Packages Management',
+                        desc : 'Membuat tampilan pengelolaan packages untuk Admin. Packages ini dipergunakan untuk menentukan bandwith upload maupun download pada router di venue User',
+                        sub_desc : 'Hanya user dengan role Admin yang dapat mengelola Packages dari masing - masing venue User',
+                        photo_1 : '/assets/retinad/RETINAD10.png',
+                        photo_2 : ''
+                    },
+                    {
+                        title : '8. Activity Management',
+                        desc : 'Membuat tempilan pengelolaan Activity untuk Admin. Activity dipergunakan untuk user Admin memantau aktifitas yang user - user lakukan. Biasanya activity ini dipergunakan untuk report bulanan pada team retinad sehingga team retinad dapat memantau behavior user.',
+                        sub_desc : '',
+                        photo_1 : '/assets/retinad/RETINAD11.png',
+                        photo_2 : ''
+                    },
+                    {
+                        title : '9. User Interface ( Login Wifi )',
+                        desc : 'Membuat tampilan login wifi yang telah ditentukan bedasarkan flow dan masing - masing venue. Tampilan login wifi juga bedasarkan tema yang telah dibuat oleh User.',
+                        sub_desc : '',
+                        photo_1 : '/assets/retinad/RETINAD9.png',
+                        photo_2 : ''
                     },
 
                 ]
