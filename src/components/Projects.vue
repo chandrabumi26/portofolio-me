@@ -82,12 +82,43 @@
                 </v-expansion-panel-content>
             </v-expansion-panel>
 
-            <v-expansion-panel>
+            <v-expansion-panel style="background-color : #e7128b">
                 <v-expansion-panel-header>
-                    Wifi Retinad
+                    <div>
+                        <img src="/assets/retinad/retinad-logo.svg" alt="" style="width:300px">
+                    </div>
                 </v-expansion-panel-header>
                 <v-expansion-panel-content>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <v-row>
+                        <v-col cols="12" lg="12">
+                            <v-card class="pink-card" style="margin-bottom: 10px;">
+                                <v-card-title>The Problem</v-card-title>
+                                
+                                <v-card-text>
+                                    Retinad merupakan platform wifi ads yang menyediakan iklan didalam login wifi. Retinad telah berdiri sejak 2018 dan mempunyai sistem web based untuk pengelolaannya.
+                                    pada kasus ini dikarnakan sistem yang telah dibuat dikembangkan dengan menggunakan teknologi lama (Code Igniter) sehingga tidak efisien untuk dilakukan pengembangan lebih lanjut, salah satu contohnya : Pemakaian Microservice dan Test Driven Development pada sisi BE dan FE.
+                                </v-card-text>
+                            </v-card>
+                            <v-card v-for="(item, index) in retinad" :key="index" class="pink-card" style="margin-bottom: 10px;">
+                                <v-card-title>{{ item.title }}</v-card-title>
+                                
+                                <v-row>
+                                    <v-col cols="12" lg="6">
+                                        <img :src="item.photo_1" style="width: 100%;">
+                                    </v-col>
+                                    <v-col cols="12" lg="6">
+                                        <v-card-text>
+                                            {{ item.desc }}
+                                        </v-card-text>
+                                        <v-card-text v-if="item.sub_desc != ''">
+                                            {{ item.sub_desc }}
+                                        </v-card-text>
+                                        <img v-if="item.photo_2 != ''" :src="item.photo_2" style="width: 100%;">
+                                    </v-col>
+                                </v-row>
+                            </v-card>
+                        </v-col>
+                    </v-row>
                 </v-expansion-panel-content>
             </v-expansion-panel>
     </v-expansion-panels>
@@ -151,6 +182,30 @@
                         photo_2 : ''
                     }
 
+                ],
+                retinad : [
+                    {
+                        title : '1. Dashboard',
+                        desc : 'Membuat tampilan Dashboard sehingga user dapat menjalankan fitur dashboard dan dapat melihat traffic dari login wifi pada venue dari user itu sendiri. Sehingga user dapat memantau perkembangan login dan jumlah iklan yang telah ditonton pada wifi ads user',
+                        sub_desc : 'User dan admin juga dapat melakukan export untuk kebutuhan laporan. Biasanya laporan dibutuhkan sebagai pemanjangan kontrak yang akan team retinad tawarkan ke user',
+                        photo_1 : '/assets/retinad/RETINAD0.png',
+                        photo_2 : ''
+                    },
+                    {
+                        title : '2. User Management',
+                        desc : 'Membuat tampilan User Management sehingga user dapat menjalankan fitur tersebut untuk membuat, melakukan edit, menghapus dan menentukan role dari user itu sendiri. Biasanya fitur ini dipakai untuk User membuat account kepada staffnya untuk mengelola venue dan themes yang ditentukan untuk tampilan ads pada wifi login.',
+                        sub_desc : '',
+                        photo_1 : '/assets/retinad/RETINAD1.png',
+                        photo_2 : '/assets/retinad/RETINAD2.png'
+                    },
+                    {
+                        title : '3. Venue Management',
+                        desc : 'Membuat tampilan Venue Management sehingga user dapat menjalankan fitur tersebut untuk mengelola venue yang perlu diaktifkan dan di nonaktifkan. hanya role user Admin yang dapat membuat venue untuk user',
+                        sub_desc : 'Biasanya fitur ini digunakan jika user telah melakukan subscription dan Admin akan membuat venue untuk tempat pemasangan wifi beserta iklannya',
+                        photo_1 : '/assets/retinad/RETINAD3.png',
+                        photo_2 : ''
+                    },
+
                 ]
             }
         }
@@ -178,6 +233,10 @@
 
         &.green-card{
             border : 2px solid #43ba42 !important;
+        }
+
+        &.pink-card{
+            border : 2px solid #5F6F94 !important;
         }
     }
 </style>
