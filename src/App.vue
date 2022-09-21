@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <v-app>
     <v-app-bar
         elevation="0"
         color="#F5C7A9"
@@ -24,6 +25,7 @@
       </v-app-bar>
 
       <router-view></router-view>
+      </v-app>
   </div>
 </template>
 <script>
@@ -33,7 +35,7 @@
         items: [
           { title: 'About', icon: 'mdi-help-circle', route : 'about' },
           { title: 'Projects', icon: 'mdi-view-dashboard', route : 'projects' },
-          { title: 'NFTs', icon: 'mdi-image-multiple' },
+          { title: 'NFTs', icon: 'mdi-image-multiple', route : 'nft' },
         ],
         right: null,
       }

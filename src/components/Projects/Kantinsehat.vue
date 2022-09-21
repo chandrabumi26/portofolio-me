@@ -1,10 +1,10 @@
 <template>
 <v-expansion-panel style="background : #00A859">
     <v-expansion-panel-header>
-        <div>
+        <div class="d-flex justify-content-center align-items-center">
             <img src="/assets/kantin-sehat/logo.png" style="width : 100px">
         </div>
-        <h2 style="color : white">
+        <h2 style="color : white; font-weight : bold">
             Kantin Sehat
         </h2>
     </v-expansion-panel-header>

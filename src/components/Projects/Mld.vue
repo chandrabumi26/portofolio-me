@@ -1,7 +1,7 @@
 <template>
     <v-expansion-panel style="background: #AF1F23 !important;">
                 <v-expansion-panel-header>
-                    <div>
+                    <div class="d-flex justify-content-center align-items-center">
                         <img src="@/assets/mld/mldspot-logo.svg" class="logo">
                     </div>
                 </v-expansion-panel-header>

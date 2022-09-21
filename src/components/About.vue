@@ -14,41 +14,43 @@
                 </v-card>
             </v-col>
             <v-col cols="12" lg="5">
-                <v-card class="right">
+                <v-card class="right" style="height : 100% !important">
                     <v-card-title>About Me</v-card-title>
                     <v-list-item two-line>
                         <v-list-item-content>
-                        <v-list-item-title><v-icon>mdi-baby-bottle-outline</v-icon> Born</v-list-item-title>
-                        <v-list-item-subtitle style="margin-left : 25px">June, 2nd 1998</v-list-item-subtitle>
+                        <v-list-item-title><v-icon class="mr-3">mdi-baby-bottle-outline</v-icon> Born</v-list-item-title>
+                        <v-list-item-subtitle style="margin-left : 40px">June, 2nd 1998</v-list-item-subtitle>
                         </v-list-item-content>
                     </v-list-item>
 
                     <v-list-item two-line>
                         <v-list-item-content>
-                        <v-list-item-title><v-icon>mdi-map-marker-outline</v-icon> Where i live :</v-list-item-title>
-                        <v-list-item-subtitle style="margin-left : 25px">Tangerang Selatan, Banten, Indonesia</v-list-item-subtitle>
+                        <v-list-item-title><v-icon class="mr-3">mdi-map-marker-outline</v-icon> Where i live :</v-list-item-title>
+                        <v-list-item-subtitle style="margin-left : 40px">Tangerang Selatan, Banten, Indonesia</v-list-item-subtitle>
                         </v-list-item-content>
                     </v-list-item>
 
                     <v-list-item two-line>
                         <v-list-item-content>
-                        <v-list-item-title><v-icon>mdi-pinwheel-outline</v-icon> Hobbies</v-list-item-title>
-                        <v-list-item-subtitle style="margin-left : 25px">Building Gunpla & Playing Piano</v-list-item-subtitle>
+                        <v-list-item-title><v-icon class="mr-3">mdi-pinwheel-outline</v-icon> Hobbies</v-list-item-title>
+                        <v-list-item-subtitle style="margin-left : 40px">Building Gunpla & Playing Piano</v-list-item-subtitle>
                         </v-list-item-content>
                     </v-list-item>
 
                     <v-list-item two-line>
                         <v-list-item-content>
-                        <v-list-item-title><v-icon>mdi-email-outline</v-icon> Contact</v-list-item-title>
-                        <v-list-item-subtitle style="margin-left : 25px">chandra.bumi@gmail.com</v-list-item-subtitle>
+                        <v-list-item-title><v-icon class="mr-3">mdi-email-outline</v-icon> Contact</v-list-item-title>
+                        <v-list-item-subtitle style="margin-left : 40px">chandra.bumi@gmail.com</v-list-item-subtitle>
+                        </v-list-item-content>
+                    </v-list-item>
+
+                    <v-list-item two-line>
+                        <v-list-item-content>
+                        <v-list-item-title><v-icon class="mr-3">mdi-school-outline</v-icon>Education</v-list-item-title>
+                        <v-list-item-subtitle style="margin-left : 40px">Brawijaya University, Graduated class of 2021</v-list-item-subtitle>
                         </v-list-item-content>
                     </v-list-item>
                     
-                </v-card>
-            </v-col>
-            <v-col cols="12" lg="12">
-                <v-card class="right">
-                    <v-card-title>Work Experience</v-card-title>
                 </v-card>
             </v-col>
         </v-row>

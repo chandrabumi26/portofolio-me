@@ -1,7 +1,7 @@
 <template>
     <v-expansion-panel style="background-color : #e7128b">
                 <v-expansion-panel-header>
-                    <div>
+                    <div class="d-flex justify-content-center align-items-center">
                         <img src="/assets/retinad/retinad-logo.svg" alt="" style="width:400px">
                     </div>
                 </v-expansion-panel-header>

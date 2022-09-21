@@ -1,10 +1,10 @@
 <template>
     <v-expansion-panel>
                 <v-expansion-panel-header>
-                    <div>
+                    <div class="d-flex justify-content-center align-items-center">
                         <img src="/assets/inla/logo_inla.png" style="width : 100px">
                     </div>
-                    <h2 style="color : #43ba42">
+                    <h2 style="color : #43ba42; font-weight : bold;">
                         INLA INDONESIA
                     </h2>
                 </v-expansion-panel-header>
