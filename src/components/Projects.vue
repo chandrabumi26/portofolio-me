@@ -205,6 +205,27 @@
                         photo_1 : '/assets/retinad/RETINAD3.png',
                         photo_2 : ''
                     },
+                    {
+                        title : '4. Features Management',
+                        desc : 'Membuat tampilan Features untuk User dapat melakukan pengelolaan fitur yang ditawarkan oleh Retinad, Fitur tersebut digunakan sebagai variant login wifi. contohnya : Login Wifi dapat melakukan dengan menonton ads yang berupa video, gambar, quiz dsb.',
+                        sub_desc : 'Fitur ini dapat dikelola oleh semua role User untuk venue user masing - masing. sehingga masing - masing user mempunyai fiturnya sendiri',
+                        photo_1 : '/assets/retinad/RETINAD4.png',
+                        photo_2 : ''
+                    },
+                    {
+                        title : '5. Flow Management',
+                        desc : 'Membuat tampilan Flow management untuk User dapat menentukan flow login wifi. Tidak ada batasan dalam penambahan flow login wifi. Contoh : Setelah berhasil login wifi, terdapat halaman untuk menonton video ataupun gambar sesuai flow yang User pilih',
+                        sub_desc : 'User juga dapat memilih device router yang digunakan. device router yang ditentukan pada flow akan diaplikasikan terhadap venue untuk User',
+                        photo_1 : '/assets/retinad/RETINAD5.png',
+                        photo_2 : '/assets/retinad/RETINAD6.png'
+                    },
+                    {
+                        title : '6. GAMAL KONTOL',
+                        desc : 'DITO GABISA GAMBAR, GAMBARNYA HELM. LULUSAN DKV, GAMBARNYA GITU',
+                        sub_desc : 'User juga dapat memilih device router yang digunakan. device router yang ditentukan pada flow akan diaplikasikan terhadap venue untuk User',
+                        photo_1 : '/assets/retinad/RETINAD5.png',
+                        photo_2 : '/assets/retinad/RETINAD6.png'
+                    },
 
                 ]
             }
