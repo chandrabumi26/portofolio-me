@@ -241,6 +241,80 @@
                                     pada kasus ini dikarnakan sistem yang telah dibuat dikembangkan dengan menggunakan teknologi lama (Code Igniter) sehingga tidak efisien untuk dilakukan pengembangan lebih lanjut, salah satu contohnya : Pemakaian Microservice dan Test Driven Development pada sisi BE dan FE.
                                 </v-card-text>
                             </v-card>
+                            <v-card class="green-card" style="margin-bottom: 10px;">
+                                <v-card-title>What i use</v-card-title>
+                                    <v-row>
+                                        <v-col cols="12" lg="3">
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> Vue.js</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> Nuxt.js</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> jQuery.js</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                        </v-col>
+                                        <v-col cols="12" lg="3">
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> Ajax</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> HTML</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> CSS</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                        </v-col>
+                                        <v-col cols="12" lg="3">
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> SCSS / SASS</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> Laravel</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> Laravel - Dusk</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                        </v-col>
+                                        <v-col cols="12" lg="3">
+                                            <v-list-item>
+                                                <v-list-content>
+                                                    <v-icon>mdi-circle-small</v-icon>
+                                                    <v-text> Webpack ( Compiler )</v-text>
+                                                </v-list-content>
+                                            </v-list-item>
+                                        </v-col>
+                                    </v-row>
+                                
+                            </v-card>
                             <v-card v-for="(item, index) in retinad" :key="index" class="pink-card" style="margin-bottom: 10px;">
                                 <v-card-title>{{ item.title }}</v-card-title>
                                 
