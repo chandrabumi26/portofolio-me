@@ -50,6 +50,10 @@
   text-decoration: none !important;
   color: white;
 }
+
+.v-toolbar{
+  flex : none !important;
+}
 </style>
 <style src="@/assets/bootstrap.scss">
 </style>
